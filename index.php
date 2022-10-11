@@ -17,7 +17,7 @@
 </head>
 <body>
 Hello <?php
-print $nombres[rand(0, count($nombres) - 1)]
+print $nombres[rand(0, count($nombres) - 1)];
 
 $new = "";
 ?>
