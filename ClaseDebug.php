@@ -5,7 +5,7 @@ $contador = 0;
 
 while (true)
 {
-    $contador = aumentarContador($contador);
+    $contador =    aumentarContador($contador);
 }
 
 
@@ -13,7 +13,7 @@ while (true)
 
 function aumentarContador($contador)
 {
-    $contador++;
+    $contador++ ;
     return $contador;
 }
 
